@@ -84,6 +84,7 @@ h6 {
 :root {
   --bg-primary: #2b2d42;
   --color-primary: #edf2f4;
+  --img-bg: #698c78;
 }
 
 body {
@@ -100,8 +101,8 @@ body {
   padding: 16px;
   display: flex;
   justify-content: space-between;
-  border-bottom: 8px solid #698c78;
-  border-right: 8px solid #698c78;
+  border-bottom: 8px solid var(--img-bg);
+  border-right: 8px solid var(--img-bg);
 }
 
 .card-body {
