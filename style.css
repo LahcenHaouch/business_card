@@ -94,13 +94,18 @@ body {
 }
 
 .card {
-  width: 400px;
+  width: 450px;
   background-color: var(--bg-primary);
   color: var(--color-primary);
   padding: 16px;
-  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 8px solid #698c78;
+  border-right: 8px solid #698c78;
 }
 
-.card > div {
-  text-align: center;
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
